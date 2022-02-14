@@ -2,7 +2,7 @@
 /node_modules
 
 # firebase config file
-/src/js/libs/firebase/firebaseConfig.js
+# /src/js/libs/firebase/firebaseConfig.js
 
 # Parcel Development Files
 /.parcel-cache
