@@ -1,0 +1,23 @@
+#sidebarMenu .active {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+#sidebarMenu a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+#sidebarMenu a:hover {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+#sidebarMenu svg {
+  width: 20px;
+  height: 20px;
+}
+
+#product-cards img {
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=styles.css.map */
