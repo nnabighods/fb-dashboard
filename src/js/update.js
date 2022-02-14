@@ -60,6 +60,8 @@ async function updateSeedData() {
             const imageUrl = await getDownloadURL(imageRef);
             const storagePath = uploadResult.metadata.fullPath;
             set(itemRef, {
+                key:itemRef.key,
+                sku: `nsm${itemRef.key}`,
                 imageUrl,
                 storagePath,
                 seed,
