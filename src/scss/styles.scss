@@ -25,5 +25,10 @@
     img {
         object-fit: cover;
     }
+    p {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
 }
 
