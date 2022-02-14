@@ -1,5 +1,5 @@
 import { getApp } from 'firebase/app';
-import {ref as databaseRef, set, get, ref, remove} from 'firebase/database';
+import {ref as databaseRef, set, get, remove} from 'firebase/database';
 import {db, storage} from "./libs/firebase/firebaseConfig";
 
 async function deleteData() {
